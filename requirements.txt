@@ -1,0 +1,6 @@
+numpy==1.18.1
+pandas==1.0.1
+altair==4.1.0
+millify==0.1.1
+numpy_financial==1.0.0
+streamlit==0.89.0
