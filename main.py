@@ -21,7 +21,7 @@ with st.form(key='form1'):
     initial_investment = st.number_input('Amount of money that you have available to invest initially', min_value=0,
                                          value=0)
     monthly_contribution = st.number_input('Amount that you plan to invest every month', min_value=0, value=1000)
-    length_of_time = st.number_input('Length of time, in years, that you plan to investing', min_value=0, value=10)
+    length_of_time = st.number_input('Length of time, in years, that you plan to investing', min_value=0, value=20)
     interest_rate = st.number_input('Your estimated annual interest rate (enter as %)', min_value=0.0, value=8.0,
                                     step=.1)
     submit_button = st.form_submit_button(label='Submit')
