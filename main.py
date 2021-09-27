@@ -13,7 +13,7 @@ st.set_page_config(
     , initial_sidebar_state='auto'
 )
 
-st.title('💵 Compound Interest Example 🤑')
+st.title('💵 Compound Interest Example 💵')
 st.write('*Curious about how much you will earn depending on what you invest? Use this app to figure it out!*')
 
 with st.form(key='form1'):
